@@ -1,0 +1,27 @@
+python dars3.py
+
+#
+son_1 = int(input("1-son kiriting: "))
+son_2 = int(input("2-son kiriting: "))
+son_3 = int(input("3-son kiriting: "))
+urtacha1 = (son_1 + son_2 + son_3) / 3
+print(f"3ta sonning o'rta arifmetik: {urtacha1}")
+
+
+#
+pizza_count = int(input("Nechta pizza buyurtma qilmoqchisiz? "))
+masofa = int(input("Pizzani yetkazib berish uchun masofani kiriting (km): "))
+
+total_prize = 42000 * pizza_count + 10000 * masofa
+print(f"Umumiy narx: {total_prize:,.2f} so'm")      # Umumiy narx: 218,000.00 so'm
+
+
+#
+pizza_count = int(input("Nechta pizza buyurtma qilmoqchisiz? "))
+masofa = float(input("Pizzani yetkazib berish uchun masofani kiriting (km): "))
+
+pizza_price = 42_000
+delivery_price_per_km = 10_000
+
+total_prize = pizza_price * pizza_count + delivery_price_per_km * masofa
+print(f"Umumiy narx: {total_prize:,.2f} so'm")
