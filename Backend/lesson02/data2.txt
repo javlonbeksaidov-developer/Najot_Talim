@@ -1,5 +1,0 @@
-python --version  #python versiyasini ko'rish
-
-code .  #vscode da fayllarni ochish
-
-python lesson02.py  #fayllarni ishga tushirish
