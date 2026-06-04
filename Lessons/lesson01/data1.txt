@@ -1,0 +1,63 @@
+	Git bash buyruqlar
+
+1. pwd — Hozirgi joylashuvni ko‘rsatadi. pwd = Print Working Directory.
+	pwd	/c/Users/Javlonbek
+
+2. ls — Papkadagi fayllarni ko‘rsatadi.
+	ls	Desktop Documents Downloads project
+
+3. cd — Papkaga kirish.
+	cd Desktop	Desktop ga kirish
+	cd ..		Orqaga qaytish
+
+4. mkdir — Yangi papka yaratish.
+	mkdir myproject		Natijada myproject papkasi yaratiladi.
+
+5. touch — Yangi fayl yaratish.
+	touch index.html	index.html faylini yaratdi.
+
+6. clear — Terminalni tozalash.
+	clear		terminal tozalanadi.
+
+7. rm — Faylni o‘chirish
+	rm index.html
+
+8. rm -r — Papkani o‘chirish
+	rm -r myproject
+
+9. cp — Nusxa olish
+	cp file.txt backup.txt
+
+10. mv — Faylni ko‘chirish yoki nomini o‘zgartirish
+	mv test.txt newtest.txt		Nomini o‘zgartirish
+	mv test.txt Desktop/		Ko‘chirish
+
+11. cat — Fayl ichini ko‘rsatish
+	cat file.txt
+
+12. echo — Matn chiqarish
+	echo Hello World
+
+13. history — Oldingi buyruqlar tarixi
+	history
+
+14. git init — Git boshlash
+	git init
+
+15. git status — Holatni ko‘rish
+	git status
+
+16. git add . — Barcha fayllarni qo‘shish
+	git add .
+
+17. git commit — Saqlash
+	git commit -m "first commit"
+
+18. git clone — GitHub’dan loyiha yuklash
+	git clone https://github.com/user/project.git
+
+19. git push — GitHub ga yuborish
+	git push
+
+20. git pull — Yangilanishlarni olish
+	git pull
